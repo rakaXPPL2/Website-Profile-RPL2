@@ -3,24 +3,48 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Kontak anggota kelompok RPL 2 SMK Negeri 1 Garut.">
-        <title>Kontak Anggota | Kelompok RPL 2</title>
+        <meta name="description" content="Profil Kelas XI Rekayasa Perangkat Lunak SMKN 1 Garut.">
+        <title>XI RPL | SMKN 1 Garut</title>
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body>
         <div class="page-shell">
             <header class="topbar">
-                <a class="brand" href="{{ url('/') }}" aria-label="Beranda Kelompok RPL 2">
-                    <span class="brand-mark">R2</span>
-                    <span><strong>Kelompok RPL 2</strong><small>SMK Negeri 1 Garut</small></span>
+                <a class="brand" href="{{ url('/') }}" aria-label="Beranda XI Rekayasa Perangkat Lunak">
+                    <span class="brand-mark">XI</span>
+                    <span><strong>XI Rekayasa Perangkat Lunak</strong><small>SMKN 1 GARUT</small></span>
                 </a>
                 <div class="status-pill"><span></span> open to connect</div>
             </header>
 
             <main>
+                <section class="class-profile" aria-labelledby="class-title">
+                    <div class="profile-copy">
+                        <p class="eyebrow">CLASS PROFILE / 2026</p>
+                        <h1 id="class-title">XI <em>Rekayasa</em><br>Perangkat Lunak.</h1>
+                        <p class="profile-description">Mempelajari pengembangan perangkat lunak, bertumbuh lewat karya, dan membawa semangat berprestasi bersama.</p>
+                        <div class="achievement-row" aria-label="Prestasi kelas">
+                            <span><strong>Juara 1</strong> Teater</span>
+                            <span><strong>Juara 2</strong> Padus</span>
+                        </div>
+                    </div>
+                    <div class="photo-collage" aria-label="Foto kegiatan kelas XI Rekayasa Perangkat Lunak">
+                        <img class="photo-main" src="{{ asset('Foto Profil/WhatsApp Image 2026-10-01 at 09.49.36.jpeg') }}" alt="Kegiatan kelas XI Rekayasa Perangkat Lunak">
+                        <img class="photo-secondary photo-secondary-one" src="{{ asset('Foto Profil/WhatsApp Image 2026-10-01 at 09.49.36 (1).jpeg') }}" alt="Foto siswa kelas XI Rekayasa Perangkat Lunak" loading="lazy">
+                        <img class="photo-secondary photo-secondary-two" src="{{ asset('Foto Profil/WhatsApp Image 2026-10-01 at 09.49.36 (2).jpeg') }}" alt="Kebersamaan kelas XI Rekayasa Perangkat Lunak" loading="lazy">
+                        <span class="photo-stamp">XI / RPL</span>
+                    </div>
+                </section>
+
+                <section class="class-values" aria-label="Informasi kelas">
+                    <div class="value-block"><p>OUR SCHOOL</p><strong>SMKN 1 GARUT</strong></div>
+                    <div class="value-block"><p>OUR VISION</p><strong>Berusaha menjadi lebih baik dan mengikuti perlombaan antar jurusan.</strong></div>
+                    <div class="value-block"><p>CLASS NOTE</p><strong>Banyak murid yang berprestasi</strong></div>
+                </section>
+
                 <section class="intro" aria-labelledby="page-title">
                     <div class="intro-copy">
-                        <p class="eyebrow">CONTACT DIRECTORY / 2025</p>
+                        <p class="eyebrow">CONTACT DIRECTORY / XI RPL</p>
                         <h1 id="page-title">Kenalan dengan<br><em>tim di balik karya kami.</em></h1>
                         <p class="intro-text">Satu ruang untuk menemukan, menyapa, dan berkolaborasi bersama anggota Kelompok RPL 2.</p>
                     </div>
@@ -60,7 +84,7 @@
                     <a href="https://maps.google.com/?q=SMK+Negeri+1+Garut" target="_blank" rel="noreferrer" aria-label="Buka lokasi di Google Maps">↗</a>
                 </section>
             </main>
-            <footer><span>RPL 2 / XII</span><span>made with curiosity &amp; code</span><span>© 2025</span></footer>
+            <footer><span>XI RPL / SMKN 1 GARUT</span><span>made with curiosity &amp; code</span><span>© 2026</span></footer>
         </div>
     </body>
 </html>
